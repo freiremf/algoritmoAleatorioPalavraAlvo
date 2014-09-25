@@ -86,10 +86,8 @@ public class Selection {
 			writer.println(fitness[0][0] + "," + media);
 			
 			if(fitness[0][0] == 10)
-			{
-				System.out.println("Convergiu!");
 				break;
-			}
+				
 			mataTrinta(matrizPopulacao, fitness);
 			inicializaMatriz(fitness);
 		}
